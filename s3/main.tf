@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "devopss3" {
   object_lock_enabled   = var.object_lock_enabled
 
   tags = {
-    Name        = "devonS3"
+    Name        = "devon-s"
   }
 }
 
