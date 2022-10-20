@@ -1,5 +1,5 @@
 
-resource "aws_s3_bucket" "devs3" {
+resource "aws_s3_bucket" "devops3" {
 
   bucket                = var.bucket
   #bucket_prefix         = var.bucket_prefix
